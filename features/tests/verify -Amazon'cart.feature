@@ -1,6 +1,5 @@
-# Created by ross at 12/30/22
-Feature: # Enter feature name here
-  # Enter feature description here
 
-  Scenario: # Enter scenario name here
-    # Enter steps here
+  Scenario:
+  Given  open amazon page
+  When click on shopping cart
+  Then verify amazon cart is empty
