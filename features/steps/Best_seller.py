@@ -12,8 +12,8 @@ def open_amazon_bestseller(context):
 def click_link(context):
     context.driver.find_element(*Link)
     for i in range(len(Link)):
-      click_link=context.driver.find_element(*Link)[i].text
-      click_link.click
+      click_link_All=context.driver.find_element(*Link)[i].text
+      click_link_All.click
       header_txt=context.driver.find_element(*Header).text
       assert click_link in header_txt
 
