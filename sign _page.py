@@ -11,6 +11,9 @@ driver.find_element(By.ID,'continue').click()
 driver.find_element(By.ID,'ap_change_login_claim').click()
 driver.find_element(By.XPATH,'span[@class="a-expander-prompt"]').click()
 driver.find_element((By.ID,'ap-other-signin-issues-link')).click()
+driver.find_element(By.CSS_SELECTOR,"i.a-icon a-icon-collapse").click()
+driver.find_element(By.CSS_SELECTOR,"#auth-fpp-link-bottom").click()
+driver.find_element(By.CSS_SELECTOR,"a.a-link-normal").click()
 
 #expected_test ='signin'
 #actual_test =driver.find_element(By.XPATH,'').text
