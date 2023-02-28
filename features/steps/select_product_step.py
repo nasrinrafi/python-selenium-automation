@@ -17,4 +17,5 @@ def select_product(context):
           color.click()
      color_name=context.driver.find_element(By.CSS_SELECTOR,'.selection').text
      actual_color+=[color_name]
-     assert actual_color==color_name
+     assert actual_color==expected_color
+
