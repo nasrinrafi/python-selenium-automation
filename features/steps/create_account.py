@@ -3,12 +3,12 @@ from behave import *
 from selenium import webdriver
 from time import sleep
 
-@given('Open amazon page')
-def open_amzon_page (context):
-  #context.driver = webdriver.Chrome(executable_path='./chromedriver')
-  context.driver.get('https://www.Amazon.com/')
-  context.driver.maximize_window()
-  context.driver.implicitly_wait(4)
+# @given('Open amazon page')
+# def open_amzon_page (context):
+#   #context.driver = webdriver.Chrome(executable_path='./chromedriver')
+#   context.driver.get('https://www.Amazon.com/')
+#   context.driver.maximize_window()
+#   context.driver.implicitly_wait(4)
 
 @when('Creat amazon account')
 def creat_account(context):
