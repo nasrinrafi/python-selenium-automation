@@ -21,14 +21,10 @@ print(test)
 list_number=[]
 event_count=0
 odd_count=0
-def odd_even_number(list_number):
-    for i in list_number:
-      if i%2==0:
-        odd_count+=odd_count
-      else:
-         event_count+=event_count
-       return event_count
-       return odd_count
+#def odd_even_number(list_number):
+  ##    if i%2==0:
+    #    odd_count+=odd_count
+     ####return odd_count
 
 list_number=[50,20,11,234,345]
 test=odd_even_number(list_number)

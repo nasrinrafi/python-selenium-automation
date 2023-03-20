@@ -8,6 +8,8 @@ from behave import given, when, then
 @given('Open Amazon T&C page')
 def open_t(context):
     context.driver.get('https://www.amazon.com/')
+    context.driver.find_element(By.ID,'nav-link-accountList').click()
+    context.driver.find_element(By.CSS_SELECTOR,'span.nav-text').click()
 
 
 @when('Store original windows')

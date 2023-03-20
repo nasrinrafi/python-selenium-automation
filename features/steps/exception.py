@@ -5,9 +5,9 @@ from selenium.webdriver.support import expected_conditions as EC
 from behave import given, when, then
 
 
-@given('open amazon page')
-def open_amazon(context):
-    context.driver.get('https://www.amazon.com/')
+#@given('open amazon page')
+#def open_amazon(context):
+   # context.driver.get('https://www.amazon.com/')
 
 
 @then('sing in is click able')
