@@ -3,7 +3,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 
 # init driver
-driver = webdriver.Chrome(executable_path='./chromedriver')
+driver = webdriver.Firefox(executable_path='./geckodriver')
 driver.maximize_window()
 driver.get('https://shop.mango.com/us')
 driver.find_element(By.XPATH,"//span[text()='Women']").click()
